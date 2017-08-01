@@ -57,7 +57,7 @@ superagent.get(cnodeUrl)
                         console.log('fetch ' + topicUrl + ' successful');
                         ep.emit('topic_html', [topicUrl, res.text]);
                     });
-            }, 100 * index);
+            }, 100 * index); // cnodejs对并发请求有限制，当发送请求超过一定速度会导致返回值为空或报错。所以这里降低点发送速度，不确定还能不能算得上是并发
         });
     });
 
