@@ -1,0 +1,51 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Users/Alkali/.nvm/versions/node/v0.12.18/bin/node',
+1 verbose cli   '/Users/Alkali/.nvm/versions/node/v0.12.18/bin/npm',
+1 verbose cli   'i',
+1 verbose cli   'makefile',
+1 verbose cli   '--save-dev' ]
+2 info using npm@2.15.11
+3 info using node@v0.12.18
+4 verbose install initial load of /Users/Alkali/Desktop/nodeJS包教包不会/lesson8/package.json
+5 warn package.json lesson8@1.0.0 No description
+6 warn package.json lesson8@1.0.0 No repository field.
+7 warn package.json lesson8@1.0.0 No README data
+8 verbose installManyTop reading scoped package data from /Users/Alkali/Desktop/nodeJS包教包不会/lesson8/node_modules/express/package.json
+9 verbose installManyTop reading scoped package data from /Users/Alkali/Desktop/nodeJS包教包不会/lesson8/node_modules/istanbul/package.json
+10 verbose installManyTop reading scoped package data from /Users/Alkali/Desktop/nodeJS包教包不会/lesson8/node_modules/mocha/package.json
+11 verbose installManyTop reading scoped package data from /Users/Alkali/Desktop/nodeJS包教包不会/lesson8/node_modules/should/package.json
+12 verbose installManyTop reading scoped package data from /Users/Alkali/Desktop/nodeJS包教包不会/lesson8/node_modules/supertest/package.json
+13 verbose readDependencies loading dependencies from /Users/Alkali/Desktop/nodeJS包教包不会/lesson8/package.json
+14 silly cache add args [ 'makefile', null ]
+15 verbose cache add spec makefile
+16 silly cache add parsed spec { raw: 'makefile',
+16 silly cache add   scope: null,
+16 silly cache add   name: null,
+16 silly cache add   rawSpec: 'makefile',
+16 silly cache add   spec: '/Users/Alkali/Desktop/nodeJS包教包不会/lesson8/makefile',
+16 silly cache add   type: 'local' }
+17 silly addLocalTarball shasum (computed) 23887a6d2f7e3880d43ceed445fba828a02d4d44
+18 verbose addTmpTarball /Users/Alkali/Desktop/nodeJS包教包不会/lesson8/makefile not in flight; adding
+19 verbose correctMkdir /Users/Alkali/.npm correctMkdir not in flight; initializing
+20 verbose addTmpTarball validating metadata from /Users/Alkali/Desktop/nodeJS包教包不会/lesson8/makefile
+21 verbose tar unpack /Users/Alkali/Desktop/nodeJS包教包不会/lesson8/makefile
+22 verbose tar unpacking to /tmp/npm-58582-836843e1/unpack-e7f32ad7db46
+23 silly gentlyRm /tmp/npm-58582-836843e1/unpack-e7f32ad7db46 is being purged
+24 verbose gentlyRm don't care about contents; nuking /tmp/npm-58582-836843e1/unpack-e7f32ad7db46
+25 silly gunzTarPerm modes [ '755', '644' ]
+26 error not a package /Users/Alkali/Desktop/nodeJS包教包不会/lesson8/makefile
+27 error addLocal Could not install /Users/Alkali/Desktop/nodeJS包教包不会/lesson8/makefile
+28 verbose stack Error: ENOENT, open '/tmp/npm-58582-836843e1/unpack-e7f32ad7db46/package.json'
+28 verbose stack     at Error (native)
+29 verbose cwd /Users/Alkali/Desktop/nodeJS包教包不会/lesson8
+30 error Darwin 16.7.0
+31 error argv "/Users/Alkali/.nvm/versions/node/v0.12.18/bin/node" "/Users/Alkali/.nvm/versions/node/v0.12.18/bin/npm" "i" "makefile" "--save-dev"
+32 error node v0.12.18
+33 error npm  v2.15.11
+34 error path /tmp/npm-58582-836843e1/unpack-e7f32ad7db46/package.json
+35 error code ENOENT
+36 error errno -2
+37 error enoent ENOENT, open '/tmp/npm-58582-836843e1/unpack-e7f32ad7db46/package.json'
+37 error enoent This is most likely not a problem with npm itself
+37 error enoent and is related to npm not being able to find a file.
+38 verbose exit [ -2, true ]
